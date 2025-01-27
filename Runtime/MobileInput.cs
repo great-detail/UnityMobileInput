@@ -157,7 +157,7 @@ namespace Mopsicus.Plugins {
         /// </summary>
         public string Name {
             get {
-                return GetType ().Name.ToLower ();
+                return GetType ().Name.ToLowerInvariant ();
             }
         }
 
